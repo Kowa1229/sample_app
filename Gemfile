@@ -5,8 +5,6 @@ ruby '2.5.1'
 
 # For password
 gem 'bcrypt', '~> 3.1.12'
-# Bootstrap
-gem 'bootstrap-sass', '~> 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 # Use sqlite3 as the database for Active Record
@@ -67,3 +65,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Testing
 gem 'rails-controller-testing'
+
+
+# Bootstrap
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
